@@ -5,7 +5,6 @@ import 'package:todo_flutter/routing/app_route.dart';
 import 'package:todo_flutter/ui/core/todo_list/widgets/modal_add_task.dart';
 import 'package:todo_flutter/ui/core/todo_list/widgets/todo_search_bar.dart';
 import 'package:todo_flutter/ui/core/todo_list/widgets/todo_list.dart';
-import 'package:todo_flutter/ui/todo_list/second_route.dart';
 
 class TodoListScreen extends HookConsumerWidget {
   const TodoListScreen({super.key});

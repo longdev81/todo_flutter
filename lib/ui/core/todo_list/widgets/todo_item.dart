@@ -18,7 +18,6 @@ class TodoItem extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // Hiển thị nội dung Task dựa trên 'todo.name'
           Expanded(
             child: Container(
               decoration: BoxDecoration(
@@ -36,7 +35,6 @@ class TodoItem extends StatelessWidget {
             ),
           ),
           !todo.status ? SizedBox(width: 0) : const SizedBox(width: 8),
-          // Các nút hành động
           !todo.status
               ? SizedBox(width: 0)
               : Row(
